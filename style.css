@@ -1,0 +1,165 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* background-color: black; */
+}
+.main{
+    height: 100%;
+    width: 100%;
+}
+.navbar{ 
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 2.5rem;
+}
+.menu{
+    cursor: pointer;
+}
+.next-menu{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 7rem;
+    cursor: pointer;
+}
+.search> i{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+h2 i{
+    margin-right: 3px;
+    cursor: pointer;
+}
+.next-menu img{
+    height: 50px;
+}
+#line{
+    width: 80px;
+    height: 3px;
+    background-color: red;
+}
+#line{
+    width: 80px;
+    height: 3px;
+    background-color: red;
+}
+.contant{
+    height: calc(100% - 100px);
+    display: flex;
+    background-color: black;
+}
+.left{
+    padding: 166px 3rem;
+    width:35%;
+}
+.center{
+    width:30%;
+}
+.left h1{
+    margin-bottom: 1.2rem;;
+    text-transform: capitalize;
+}
+#Lorem{
+    line-height: 15px;
+    font-size: small;
+    font-weight: normal;
+}
+.contant button{
+    text-transform: capitalize;
+    position: relative;
+    background-color: red;
+    color: black;
+    display: flex;
+    margin-top:1.7rem;
+    padding: 8px 17px;
+    border-radius: 5px 8px;
+    cursor: pointer;
+}
+button> i{
+    margin-right: 0.6rem;
+}
+.img{
+    position: relative;
+    display: flex;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.img #coca{
+    width: 100%;
+    height:500px;
+    background-size: cover;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.img #botal{
+    position: absolute;
+    margin-top: 7rem;
+    height: 400px;
+    margin-left: 8.5rem;
+}
+.footer{
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    border-top: 2px solid  red;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+@media (max-width:600px) {
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .navbar{
+        height:80px;
+        width: 100%;
+        position: relative;
+    }
+    .next-menu h4{
+        display: none;
+    }
+     .next-menu #line{
+        display: none;
+     }
+     .menu h2{
+        left: 1.2rem;
+        top: 29px;  
+        font-size: large;
+        margin-left: 0%;
+        position: absolute;
+     }
+     .next-menu img{
+        display: none;
+     }
+     .contant{
+        flex-direction: column;
+     }
+     .left{
+        width: 100%;
+       padding: 120px 22px;
+     }
+     .center{
+        width: 100%;
+     }
+     .img #botal{
+        position: absolute;
+        right:30%;
+        bottom: 0.1rem;
+     }
+.footer{
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    border-top: 2px  solid red;
+    padding-top: 20px;;
+    text-transform: capitalize;
+}
+}
